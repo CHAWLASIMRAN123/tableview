@@ -9,6 +9,12 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
+    @IBOutlet var cellLabel: UILabel!
+    @IBOutlet var cellImage: UIImageView!
+    
+    @IBOutlet var cellMarks: UILabel!
+    
+    @IBOutlet var cellGrade: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
